@@ -1,5 +1,5 @@
-# IoTHubLoaderApp
-App to send messages to Azure IoT Hub at very high rates. Has been tested for about 257K RPM (~ 4.2K messages per second) with an S3 IoTHub 1 Throughput Unit, 2000 devices and 2000 messages/device with a thinktime of 5ms, the container was hosted on a single compute intensive high iops Azure VM. Can be deployed as a Docker container
+# Azure IoT Hub Loader App
+App to send messages to Azure IoT Hub at very high rates. Has been tested for about 265.49K msgs/min (4425 msgs/Sec) with an S3 IoTHub 1 Throughput Unit, 2000 devices and 2000 messages/device with a thinktime of 5ms, the container was hosted on a single compute intensive high iops Azure VM. Can be deployed as a Docker container
 
 Usage: 
 Edit the appsettings.json (intuitive keys)with appropriate values.
